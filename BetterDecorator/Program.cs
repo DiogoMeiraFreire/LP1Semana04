@@ -15,14 +15,14 @@ namespace BetterDecorator
         {
             string result = "";
 
-            for (int i = 0; i <= rep; i++)
+            for (int i = 1; i <= rep; i++)
             {
                 result += dec;
             }
 
             result += $" {s} ";
 
-            for (int i = 0; i <= rep; i++)
+            for (int i = 1; i <= rep; i++)
             {
                 result += dec;
             }
