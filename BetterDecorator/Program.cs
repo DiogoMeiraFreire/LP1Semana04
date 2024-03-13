@@ -4,6 +4,13 @@ namespace BetterDecorator
 {
     class Program
     {
+        /// <summary>
+        /// Print a string with characters before and 
+        /// after (the number of times specified)
+        /// </summary>
+        /// <param name="args">arguments needed to run the program.
+        /// A string, followed my a char, followed by an int
+        /// </param>
         static void Main(string[] args)
         {
             Console.WriteLine(Decor(args[0], 
