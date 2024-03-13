@@ -2,6 +2,9 @@
 
 namespace BetterDecorator
 {
+    /// <summary>
+    /// Main class of the program
+    /// </summary>
     class Program
     {
         /// <summary>
