@@ -52,6 +52,10 @@ namespace BetterDecorator
             return result;
         }
 
+        /// <summary>
+        /// Overload of the Decor method for when there's no arguments given
+        /// </summary>
+        /// <returns>Sends a specific Decor with 3 arguments</returns>
         private static string Decor()
         {
             return Decor("User did not specify args!", '=', 3);
